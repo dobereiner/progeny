@@ -20,19 +20,8 @@ activities, please check out
 
 ## Installation
 
-Progeny is available in
-[Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/progeny.html). 
-In addition, one can install the development version from the Github repository: 
-
 ```r
-## To install the package from Bioconductor
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install("progeny")
-
-## To install the development version from the Github repo:
-devtools::install_github("saezlab/progeny")
+devtools::install_github("dobereiner/progeny")
 ```
 
 ## Updates
